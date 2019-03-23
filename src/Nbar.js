@@ -1,20 +1,26 @@
 import React, { Component } from 'react';
-import Navbar from 'react-bootstrap/Navbar';
-import Nitem from "./Nitem";
-
+import "./Nbar.css";
 class Nbar extends Component {
     render() {
         return (
-            <div>
-                <Navbar justify className="d-flex justify-content-center" bg="dark" variant="dark">
-                    <Navbar.Brand href="#home">
-                        <img src="src/compass.svg"/>
-                    </Navbar.Brand>
-                    <Nitem/>
-                </Navbar>
-            </div>
-        );
-    }
-}
-
+            <nav class="navbar navbar-dark bg-dark justify-content-center">
+                <a class="navbar-brand" href="/home">
+                    <img src="/images/main-icon.svg" width="40" height="40" alt=""/>
+                </a>
+                <ul class="nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="/Posts">Posts</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Users">Users</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Logout">Log out</a>
+                    </li>
+                </ul>
+            </nav>
+                );
+            }
+        }
+        
 export default Nbar;

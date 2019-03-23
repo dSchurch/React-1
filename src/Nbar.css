@@ -1,0 +1,12 @@
+a{
+    color: white;
+    font-size: 25px;
+}
+
+a:hover{
+    color: yellow
+}
+
+.navbar-brand{
+    padding-right: 10px;
+}

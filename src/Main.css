@@ -1,0 +1,11 @@
+.main-screen{
+    margin-top: 10vh;
+    padding-top: 30vh;
+    padding-bottom: 30vh;
+    background-color: aliceblue;
+
+}
+
+.btn-primary {
+    margin-left: 10px;
+}
